@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "nest-app/**/*.ts",
+      "use": "@vercel/node",
+      "env": {
+        "YOUR_ENV_VARIABLE": "value"
+      }
+    }
+  ]
+}
