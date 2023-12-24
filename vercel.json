@@ -3,10 +3,7 @@
   "builds": [
     {
       "src": "nest-app/**/*.ts",
-      "use": "@vercel/node",
-      "env": {
-        "YOUR_ENV_VARIABLE": "value"
-      }
+      "use": "@vercel/node"
     }
   ]
 }
